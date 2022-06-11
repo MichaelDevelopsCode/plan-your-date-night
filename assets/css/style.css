@@ -357,6 +357,7 @@ header h2 a:hover {
 }
 
 .save-btn-wrapper {
+    display: flex;
     justify-content: center;
     text-align: center;
     padding-left: 75px;
@@ -476,7 +477,11 @@ header h2 a:hover {
 
 /* RECIPES SECTION END */
 
-
+.modalwrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 /* MEDIA QUERIES START */
 
 /* styles for everything below 1200px width */
@@ -498,7 +503,11 @@ header h2 a:hover {
         width: 80vw;
     }
     /* end shopping list */
+    #result-name {
+        font-size: 25px;
+    }
 }
+
 
 @media screen and (max-width: 992px) {
 
@@ -526,7 +535,7 @@ header h2 a:hover {
 
     /* modal */
     #result-name {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     #result-modal p {
@@ -534,7 +543,7 @@ header h2 a:hover {
     }
 
     #result-modal h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     /* end modal */

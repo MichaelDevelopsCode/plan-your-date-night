@@ -78,25 +78,27 @@
 
         <!-- Modal Section -->
         <section id="result-modal" class="grid-y large reveal">
-            <div class="cell modal-title">
-                <h1 id="result-name">Insert Result Name</h1>
-                <button class="close-button" data-close aria-label="Close modal" type="button">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="save-item-container grid-x">
-                <div id="img-container" class="cell cell-card large-4 medium-4">
-                    <div class="circular-image" id="result-highlight-img"></div>
-                    <div><a id="source" href="">Link to Recipe</a></div>
+            <div class="modalwrapper">
+                <div class="cell modal-title">
+                    <h1 id="result-name">Insert Result Name</h1>
+                    <button class="close-button" data-close aria-label="Close modal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <div class="cell cell-details large-8 medium-8" id="result-highlight-details">
-                    <p id="instructions">Instructions</p>
-                    <p id="ingredients">Ingredients</p>
+                <div class="save-item-container grid-x">
+                    <div id="img-container" class="cell cell-card large-4 medium-4">
+                        <div class="circular-image" id="result-highlight-img"></div>
+                        <div><a id="source" href="" target="_blank">Link to Recipe</a></div>
+                    </div>
+                    <div class="cell cell-details large-8 medium-8" id="result-highlight-details">
+                        <p id="instructions">Instructions</p>
+                        <p id="ingredients">Ingredients</p>
+                    </div>
                 </div>
-            </div>
-            <div class="cell save-btn-wrapper">
-                <h3 id="recipe-save-btn" data-id="" data-type="">Save To Recipe Book</h3>
-                <h3 id="save-shop-btn" data-id="" data-type="">Update Shopping List</h3>
+                <div class="cell save-btn-wrapper">
+                    <h3 id="recipe-save-btn" data-id="" data-type="">Save To Recipe Book</h3>
+                    <h3 id="save-shop-btn" data-id="" data-type="">Update Shopping List</h3>
+                </div>
             </div>
         </section>
         <!-- End Modal Section -->
